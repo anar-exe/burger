@@ -18,8 +18,28 @@
             border-radius: 5px
             background-color: #00a8be
             color: #ffffff
+            h2
+                &:hover
+                cursor: pointer
         .imgbox
             width: 120px
             margin: 20px 0 10px
         h4
             font-size: 20px
+    @media ( max-width: 991.98px )
+        .box
+            h1
+                margin: 0 0 20px
+            h5
+                margin: 0 0 50px
+            .minibox
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                h4
+                    display: inline-block
+                .imgbox
+                    display: block
+        .imgbox
+            width: 550px
+            margin: 100px 0 10px
